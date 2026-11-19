@@ -1,5 +1,77 @@
 ---
-title: "Sharks"
+title: ""
 ---
 
+::: {.hero-banner}
+# Global Shark Incident Archive
+Exploring historical data, global geography, and the realities of human-shark interactions.
+:::
 
+::: {.grid .mb-4}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.stat-box}
+::: {.stat-number}
+5,000+
+:::
+::: {.stat-label}
+Documented Incidents
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.stat-box}
+::: {.stat-number}
+~80%
+:::
+::: {.stat-label}
+Non-Fatal Outcomes
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.stat-box}
+::: {.stat-number}
+100+
+:::
+::: {.stat-label}
+Years of Global Records
+:::
+:::
+:::
+
+:::
+
+## The Global Shark Attack File
+
+The Global Shark Attack File (GSAF) is a historical archive compiled by researchers to document human-shark interactions from coastal waters across the world. Spanning more than a century of incident logs, physician case reports, and verified media records, it provides empirical evidence on where, when, and under what conditions encounters happen.
+
+## Perception vs. Reality
+
+Sensational media headlines and movies often portray sharks as relentless hunters, fueling a level of public anxiety far beyond the actual statistical risk. In reality, the odds of experiencing a shark attack are vanishingly small. Ocean-goers face vastly greater dangers from rip currents, boat collisions, and accidental drowning than from wildlife. Furthermore, when encounters do happen, the vast majority are non-fatal—most often representing exploratory curiosity or mistaken identity rather than targeted aggression.
+
+## Explore the Data
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.explore-card}
+### 🌍 Global Incident Map
+Visualize how documented shark incidents are distributed across coastal nations around the world.
+
+[View Global Map →](map.qmd){.btn .btn-outline-primary .mt-2}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.explore-card}
+### 📊 Activity & Outcome Trends
+Analyze which marine activities are most frequently involved in encounters and examine the proportion of fatal versus non-fatal cases.
+
+[Explore Trends →](trends.qmd){.btn .btn-outline-primary .mt-2}
+:::
+:::
+
+:::

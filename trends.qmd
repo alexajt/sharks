@@ -18,6 +18,10 @@ attacks |>
   filter(n() >= 50) |> 
   ggplot(aes(y = Activity, fill = Fatal_clean)) +
   geom_bar(position = "dodge") +
+  scale_fill_manual(
+    values = c("Fatal" = "#1d3557", "Non-fatal" = "#457b9d")
+  ) +
+  theme_minimal() +
   labs(
     title = "Fatal vs Non-Fatal Shark Attacks by Activity",
     x = "Number of Attacks",

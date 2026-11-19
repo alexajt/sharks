@@ -36,6 +36,7 @@ world_attacks <- world_map |>
 
 ggplot(world_attacks, aes(x = long, y = lat, group = group, fill = attacks)) +
   geom_polygon(color = "white", linewidth = 0.1) +
+  scale_fill_distiller(palette = "Blues", direction = 1, trans = "log1p", na.value = "#edf2f7") +
   theme_void() +
   labs(
     title = "Shark Attacks by Country",
